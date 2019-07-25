@@ -213,6 +213,11 @@
             "symbolic_name": "dmsetup_info"
         },
         {
+            "command": "/usr/bin/dnf -C --noplugins module list",
+            "pattern": [],
+            "symbolic_name": "dnf_module_list"
+        },
+        {
             "command": "/usr/bin/docker info",
             "pattern": [],
             "symbolic_name": "docker_info"
