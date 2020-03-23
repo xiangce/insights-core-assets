@@ -111,12 +111,12 @@
             "symbolic_name": "date_utc"
         },
         {
-            "command": "/bin/df -al",
+            "command": "/bin/df -alk",
             "pattern": [],
             "symbolic_name": "df__al"
         },
         {
-            "command": "/bin/df -alP",
+            "command": "/bin/df -alPk",
             "pattern": [],
             "symbolic_name": "df__alP"
         },
